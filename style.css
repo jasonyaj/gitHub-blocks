@@ -1,0 +1,60 @@
+img {
+    height: 200px;
+}
+
+.container {
+    width: 800px; /*Originally set to 950, but 800 matches example better. It will scale nicely! */
+    background-color: gainsboro;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    color: rgb(163, 144, 144);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    
+    margin: 0;
+}
+
+.navy {
+    /* height: 200px; */
+    /* width: 950px auto; */
+    background-color: navy;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red {
+    /* height: 200px; */
+    /* width: 950px; */
+    background-color: red;
+    justify-content: space-evenly;
+}
+
+.gold {
+    /* height: 200px; */
+    /* width: 950px auto; */
+    background-color: gold;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.footer{
+    color: rgb(163, 144, 144);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.row {
+    padding: 20px;
+    margin: 20px 0;
+}
